@@ -41,4 +41,8 @@ class UserViewModel {
         task.resume()
     }
     
+    func cellDidSelect(index:Int) {
+        
+    }
+    
 }

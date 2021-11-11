@@ -25,6 +25,7 @@
 		79829AA5273D5414009234D6 /* UserViewCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79829AA4273D5414009234D6 /* UserViewCellView.xib */; };
 		79829AA7273D553A009234D6 /* UserViewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79829AA6273D553A009234D6 /* UserViewCellView.swift */; };
 		79829AA9273D57E2009234D6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79829AA8273D57E2009234D6 /* Data.swift */; };
+		79829AAC273D6795009234D6 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79829AAB273D6795009234D6 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		79829AA4273D5414009234D6 /* UserViewCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewCellView.xib; sourceTree = "<group>"; };
 		79829AA6273D553A009234D6 /* UserViewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCellView.swift; sourceTree = "<group>"; };
 		79829AA8273D57E2009234D6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		79829AAB273D6795009234D6 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				79829A98273D1F3E009234D6 /* MineView */,
 				79829A93273D189E009234D6 /* UserView */,
 				79829A92273D1893009234D6 /* MainTabBarView */,
+				79829AAB273D6795009234D6 /* CustomImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				79829A91273D151F009234D6 /* MainTabBarView.swift in Sources */,
 				7928EF22273CFA5F00F5850D /* SceneDelegate.swift in Sources */,
 				79829AA3273D53BB009234D6 /* UserViewCellViewModel.swift in Sources */,
+				79829AAC273D6795009234D6 /* CustomImageView.swift in Sources */,
 				79829A9A273D1F96009234D6 /* MineView.swift in Sources */,
 				79829AA0273D4DBF009234D6 /* UserViewModel.swift in Sources */,
 				79829A95273D18C0009234D6 /* UserView.swift in Sources */,

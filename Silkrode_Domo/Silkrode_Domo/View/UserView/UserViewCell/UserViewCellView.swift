@@ -10,7 +10,7 @@ import UIKit
 
 class UserViewCellView: UITableViewCell {
     
-    @IBOutlet weak var imageVIew: UIImageView!
+    @IBOutlet weak var imageVIew: CustomImageView!
     @IBOutlet weak var nameLable: UILabel!
     @IBOutlet weak var descriptionLable: UILabel!
     

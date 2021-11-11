@@ -44,8 +44,13 @@ extension UserView: UITableViewDataSource , UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserViewCellView", for: indexPath) as! UserViewCellView
         cell.nameLable.text = viewModel.userViewCellModels?[indexPath.row].title
         cell.descriptionLable.text = viewModel.userViewCellModels?[indexPath.row].description
+        cell.imageVIew.loadImageUsingUrlString(urlString: viewModel.userViewCellModels?[indexPath.row].imageUrlString ?? "")
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
     }
     
 }
