@@ -19,6 +19,7 @@ class UserViewModel {
     }
     
     var userDidSet: (() -> Void)?
+   
     
     func request() {
         guard let url = URL(string: "https://api.github.com/users") else {return}

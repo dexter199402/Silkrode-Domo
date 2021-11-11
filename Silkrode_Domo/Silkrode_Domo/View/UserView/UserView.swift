@@ -50,7 +50,11 @@ extension UserView: UITableViewDataSource , UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let detailView = DetailView()
+        var delegate:DetailViewDataSource
+        delegate = detailView
+        delegate.getName(name: viewModel.userViewCellModels?[indexPath.row].title ?? "",imageUrl: viewModel.userViewCellModels?[indexPath.row].imageUrlString ?? "")
+        self.present(detailView, animated: true, completion: nil)
     }
     
 }

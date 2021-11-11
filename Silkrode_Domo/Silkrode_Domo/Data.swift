@@ -13,3 +13,9 @@ struct User: Codable {
     let avatar_url: String
 }
 
+struct User_de: Codable {
+    let name: String?
+    let location: String?
+    let email: String?
+}
+
