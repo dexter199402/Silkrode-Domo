@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7928EF20273CFA5E00F5850D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928EF1F273CFA5E00F5850D /* AppDelegate.swift */; };
+		7928EF22273CFA5F00F5850D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928EF21273CFA5F00F5850D /* SceneDelegate.swift */; };
+		7928EF24273CFA5F00F5850D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928EF23273CFA5F00F5850D /* ViewController.swift */; };
+		7928EF27273CFA5F00F5850D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7928EF25273CFA5F00F5850D /* Main.storyboard */; };
+		7928EF29273CFA6B00F5850D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7928EF28273CFA6B00F5850D /* Assets.xcassets */; };
+		7928EF2C273CFA6B00F5850D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7928EF2A273CFA6B00F5850D /* LaunchScreen.storyboard */; };
+		7928EF37273CFA6C00F5850D /* Silkrode_DomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928EF36273CFA6C00F5850D /* Silkrode_DomoTests.swift */; };
+		7928EF42273CFA6D00F5850D /* Silkrode_DomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928EF41273CFA6D00F5850D /* Silkrode_DomoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7928EF33273CFA6C00F5850D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7928EF14273CFA5E00F5850D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7928EF1B273CFA5E00F5850D;
+			remoteInfo = Silkrode_Domo;
+		};
+		7928EF3E273CFA6D00F5850D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7928EF14273CFA5E00F5850D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7928EF1B273CFA5E00F5850D;
+			remoteInfo = Silkrode_Domo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7928EF1C273CFA5E00F5850D /* Silkrode_Domo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silkrode_Domo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7928EF1F273CFA5E00F5850D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7928EF21273CFA5F00F5850D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7928EF23273CFA5F00F5850D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7928EF26273CFA5F00F5850D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7928EF28273CFA6B00F5850D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7928EF2B273CFA6B00F5850D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7928EF2D273CFA6B00F5850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7928EF32273CFA6C00F5850D /* Silkrode_DomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Silkrode_DomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7928EF36273CFA6C00F5850D /* Silkrode_DomoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silkrode_DomoTests.swift; sourceTree = "<group>"; };
+		7928EF38273CFA6C00F5850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7928EF3D273CFA6D00F5850D /* Silkrode_DomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Silkrode_DomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7928EF41273CFA6D00F5850D /* Silkrode_DomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silkrode_DomoUITests.swift; sourceTree = "<group>"; };
+		7928EF43273CFA6D00F5850D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7928EF19273CFA5E00F5850D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7928EF2F273CFA6C00F5850D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7928EF3A273CFA6D00F5850D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7928EF13273CFA5E00F5850D = {
+			isa = PBXGroup;
+			children = (
+				7928EF1E273CFA5E00F5850D /* Silkrode_Domo */,
+				7928EF35273CFA6C00F5850D /* Silkrode_DomoTests */,
+				7928EF40273CFA6D00F5850D /* Silkrode_DomoUITests */,
+				7928EF1D273CFA5E00F5850D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7928EF1D273CFA5E00F5850D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7928EF1C273CFA5E00F5850D /* Silkrode_Domo.app */,
+				7928EF32273CFA6C00F5850D /* Silkrode_DomoTests.xctest */,
+				7928EF3D273CFA6D00F5850D /* Silkrode_DomoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7928EF1E273CFA5E00F5850D /* Silkrode_Domo */ = {
+			isa = PBXGroup;
+			children = (
+				7928EF1F273CFA5E00F5850D /* AppDelegate.swift */,
+				7928EF21273CFA5F00F5850D /* SceneDelegate.swift */,
+				7928EF23273CFA5F00F5850D /* ViewController.swift */,
+				7928EF25273CFA5F00F5850D /* Main.storyboard */,
+				7928EF28273CFA6B00F5850D /* Assets.xcassets */,
+				7928EF2A273CFA6B00F5850D /* LaunchScreen.storyboard */,
+				7928EF2D273CFA6B00F5850D /* Info.plist */,
+			);
+			path = Silkrode_Domo;
+			sourceTree = "<group>";
+		};
+		7928EF35273CFA6C00F5850D /* Silkrode_DomoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7928EF36273CFA6C00F5850D /* Silkrode_DomoTests.swift */,
+				7928EF38273CFA6C00F5850D /* Info.plist */,
+			);
+			path = Silkrode_DomoTests;
+			sourceTree = "<group>";
+		};
+		7928EF40273CFA6D00F5850D /* Silkrode_DomoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7928EF41273CFA6D00F5850D /* Silkrode_DomoUITests.swift */,
+				7928EF43273CFA6D00F5850D /* Info.plist */,
+			);
+			path = Silkrode_DomoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7928EF1B273CFA5E00F5850D /* Silkrode_Domo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7928EF46273CFA6D00F5850D /* Build configuration list for PBXNativeTarget "Silkrode_Domo" */;
+			buildPhases = (
+				7928EF18273CFA5E00F5850D /* Sources */,
+				7928EF19273CFA5E00F5850D /* Frameworks */,
+				7928EF1A273CFA5E00F5850D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Silkrode_Domo;
+			productName = Silkrode_Domo;
+			productReference = 7928EF1C273CFA5E00F5850D /* Silkrode_Domo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7928EF31273CFA6C00F5850D /* Silkrode_DomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7928EF49273CFA6D00F5850D /* Build configuration list for PBXNativeTarget "Silkrode_DomoTests" */;
+			buildPhases = (
+				7928EF2E273CFA6C00F5850D /* Sources */,
+				7928EF2F273CFA6C00F5850D /* Frameworks */,
+				7928EF30273CFA6C00F5850D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7928EF34273CFA6C00F5850D /* PBXTargetDependency */,
+			);
+			name = Silkrode_DomoTests;
+			productName = Silkrode_DomoTests;
+			productReference = 7928EF32273CFA6C00F5850D /* Silkrode_DomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7928EF3C273CFA6D00F5850D /* Silkrode_DomoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7928EF4C273CFA6D00F5850D /* Build configuration list for PBXNativeTarget "Silkrode_DomoUITests" */;
+			buildPhases = (
+				7928EF39273CFA6D00F5850D /* Sources */,
+				7928EF3A273CFA6D00F5850D /* Frameworks */,
+				7928EF3B273CFA6D00F5850D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7928EF3F273CFA6D00F5850D /* PBXTargetDependency */,
+			);
+			name = Silkrode_DomoUITests;
+			productName = Silkrode_DomoUITests;
+			productReference = 7928EF3D273CFA6D00F5850D /* Silkrode_DomoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7928EF14273CFA5E00F5850D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7928EF1B273CFA5E00F5850D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					7928EF31273CFA6C00F5850D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7928EF1B273CFA5E00F5850D;
+					};
+					7928EF3C273CFA6D00F5850D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7928EF1B273CFA5E00F5850D;
+					};
+				};
+			};
+			buildConfigurationList = 7928EF17273CFA5E00F5850D /* Build configuration list for PBXProject "Silkrode_Domo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7928EF13273CFA5E00F5850D;
+			productRefGroup = 7928EF1D273CFA5E00F5850D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7928EF1B273CFA5E00F5850D /* Silkrode_Domo */,
+				7928EF31273CFA6C00F5850D /* Silkrode_DomoTests */,
+				7928EF3C273CFA6D00F5850D /* Silkrode_DomoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7928EF1A273CFA5E00F5850D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7928EF2C273CFA6B00F5850D /* LaunchScreen.storyboard in Resources */,
+				7928EF29273CFA6B00F5850D /* Assets.xcassets in Resources */,
+				7928EF27273CFA5F00F5850D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7928EF30273CFA6C00F5850D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7928EF3B273CFA6D00F5850D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7928EF18273CFA5E00F5850D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7928EF24273CFA5F00F5850D /* ViewController.swift in Sources */,
+				7928EF20273CFA5E00F5850D /* AppDelegate.swift in Sources */,
+				7928EF22273CFA5F00F5850D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7928EF2E273CFA6C00F5850D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7928EF37273CFA6C00F5850D /* Silkrode_DomoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7928EF39273CFA6D00F5850D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7928EF42273CFA6D00F5850D /* Silkrode_DomoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7928EF34273CFA6C00F5850D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7928EF1B273CFA5E00F5850D /* Silkrode_Domo */;
+			targetProxy = 7928EF33273CFA6C00F5850D /* PBXContainerItemProxy */;
+		};
+		7928EF3F273CFA6D00F5850D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7928EF1B273CFA5E00F5850D /* Silkrode_Domo */;
+			targetProxy = 7928EF3E273CFA6D00F5850D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7928EF25273CFA5F00F5850D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7928EF26273CFA5F00F5850D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7928EF2A273CFA6B00F5850D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7928EF2B273CFA6B00F5850D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7928EF44273CFA6D00F5850D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7928EF45273CFA6D00F5850D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7928EF47273CFA6D00F5850D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AS692DQZL;
+				INFOPLIST_FILE = Silkrode_Domo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei.Silkrode-Domo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7928EF48273CFA6D00F5850D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AS692DQZL;
+				INFOPLIST_FILE = Silkrode_Domo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei.Silkrode-Domo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7928EF4A273CFA6D00F5850D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AS692DQZL;
+				INFOPLIST_FILE = Silkrode_DomoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei.Silkrode-DomoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silkrode_Domo.app/Silkrode_Domo";
+			};
+			name = Debug;
+		};
+		7928EF4B273CFA6D00F5850D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AS692DQZL;
+				INFOPLIST_FILE = Silkrode_DomoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei.Silkrode-DomoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silkrode_Domo.app/Silkrode_Domo";
+			};
+			name = Release;
+		};
+		7928EF4D273CFA6D00F5850D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AS692DQZL;
+				INFOPLIST_FILE = Silkrode_DomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei.Silkrode-DomoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Silkrode_Domo;
+			};
+			name = Debug;
+		};
+		7928EF4E273CFA6D00F5850D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AS692DQZL;
+				INFOPLIST_FILE = Silkrode_DomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wei.Silkrode-DomoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Silkrode_Domo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7928EF17273CFA5E00F5850D /* Build configuration list for PBXProject "Silkrode_Domo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7928EF44273CFA6D00F5850D /* Debug */,
+				7928EF45273CFA6D00F5850D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7928EF46273CFA6D00F5850D /* Build configuration list for PBXNativeTarget "Silkrode_Domo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7928EF47273CFA6D00F5850D /* Debug */,
+				7928EF48273CFA6D00F5850D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7928EF49273CFA6D00F5850D /* Build configuration list for PBXNativeTarget "Silkrode_DomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7928EF4A273CFA6D00F5850D /* Debug */,
+				7928EF4B273CFA6D00F5850D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7928EF4C273CFA6D00F5850D /* Build configuration list for PBXNativeTarget "Silkrode_DomoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7928EF4D273CFA6D00F5850D /* Debug */,
+				7928EF4E273CFA6D00F5850D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7928EF14273CFA5E00F5850D /* Project object */;
+}
